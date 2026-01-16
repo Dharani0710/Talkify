@@ -1,20 +1,21 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Talkify Chat Application",
+  "private": true,
+  "type": "commonjs",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend ",
-    "start": "npm run start --prefix backend"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm start --prefix backend",
+    "dev": "npm run dev --prefix frontend"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dharani0710/Talkify.git"
+    "url": "https://github.com/Dharani0710/Talkify.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["chat", "mern", "react", "node", "vite"],
+  "author": "Dharani",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Dharani0710/Talkify/issues"
   },
