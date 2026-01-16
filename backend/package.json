@@ -1,26 +1,23 @@
 {
-  "name": "backend",
+  "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Talkify Chat Application",
+  "private": true,
+  "type": "commonjs",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
-
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && npm start",
+    "dev": "cd frontend && npm run dev"
   },
-  "keywords": [],
-  "type": "module",
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dharani0710/Talkify.git"
+  },
+  "keywords": ["chat", "mern", "react", "node", "vite"],
+  "author": "Dharani",
   "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.7",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.10.1"
+  "bugs": {
+    "url": "https://github.com/Dharani0710/Talkify/issues"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.11"
-  }
+  "homepage": "https://github.com/Dharani0710/Talkify#readme"
 }
